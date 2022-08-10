@@ -30,4 +30,4 @@ def progress_bar():
 if st.session_state.check:
     progress_bar()
 
-st.markdown("# Main page 🎈")
+st.markdown("# Done! 🎈")
