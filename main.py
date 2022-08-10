@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-
 st.checkbox("Show stuff", key='check')
 if st.session_state.check:
     st.write("Box ticked")
@@ -30,6 +29,7 @@ def progress_bar():
         time.sleep(0.1)
 
 
-progress_bar()
+if st.session_state.check:
+    progress_bar()
 
 st.markdown("# Main page 🎈")
