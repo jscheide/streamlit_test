@@ -14,8 +14,6 @@ st.sidebar.write("JAKES APP")
 
 import time
 
-'Starting a long computation...'
-
 # Add a placeholder
 latest_iteration = st.empty()
 bar = st.progress(0)
